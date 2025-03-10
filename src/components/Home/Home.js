@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import homeIcon from "../../Assets/homeicons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
-
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./home.css";
+import resumePDF from "../../Assets/Yolanda Mabotja - 20250129.pdf"; 
 
 function Home() {
   return (
@@ -23,12 +23,24 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                <strong className="main-name"> Rahul Jha</strong>
+                <strong className="main-name"> YOLANDA MABOTJA</strong>
               </h1>
 
               <div style={{ padding: 30 }} className="type">
                 <Type />
               </div>
+
+              {/* View Resume Button */}
+              <Button
+                variant="primary"
+                href={resumePDF}
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Yolanda_Mabotja_CV.pdf"
+                className="resume-btn"
+              >
+                📄 View Resume
+              </Button>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

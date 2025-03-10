@@ -1,32 +1,33 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { AiOutlineArrowRight } from "react-icons/ai";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
-          <p style={{ textAlign: "justify"}}>
-            Hi Everyone, I am <span className="primary-header">Rahul Jha</span> from Darbhanga, Bihar, India. I am a computer science graduate and a passionate programmer.
+          <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span className="primary-header">Yolanda Mabotja</span>, a dedicated Full Stack Developer 
+            with a strong background in mobile and web application development. I specialize in 
+            <i className="primary-header"> JavaScript, React.js, React Native, Node.js, MongoDB, and Firebase</i>. 
+            I have a proven track record of creating dynamic and responsive user interfaces, developing robust 
+            server-side applications, and ensuring seamless integration between front-end and back-end systems.
             <br />
             <br />
-            In addition to coding, here are some other things I enjoy doing!
+            I am passionate about building high-quality, scalable, and efficient solutions that enhance user 
+            experiences and drive business success. My deep interest in technology, particularly in 
+            <i className="primary-header"> payment services through tech</i>, motivates me to explore and implement 
+            innovative solutions.
+            <br />
+            <br />
+            I thrive in environments that encourage <i className="primary-header">innovation, collaboration, and problem-solving</i>. 
+            My experience in decision-making, communication, and software development has helped me become 
+            an asset to any team. I aim to contribute to meaningful projects and make a lasting impact 
+            in a dynamic work environment.
+            <br />
+            <br />
           </p>
-          <ul>
-            <li className="about-activity">
-              <AiOutlineArrowRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <AiOutlineArrowRight /> Reading Books
-            </li>
-            <li className="about-activity">
-              <AiOutlineArrowRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <AiOutlineArrowRight /> Traveling
-            </li>
-          </ul>
+    
         </blockquote>
       </Card.Body>
     </Card>

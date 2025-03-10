@@ -8,7 +8,6 @@
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
-
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -21,52 +20,74 @@
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
 .project-card-view:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
 }
 
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
+.project-details {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: var(--clr-bg-light) !important;
+  border-radius: 8px;
+  box-shadow: var(--shadow-light) !important;
+  color: var(--clr-txt) !important;
 }
 
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px #0bebefa0 !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+.project-details h3 {
+  font-size: 1.8em !important;
+  color: var(--clr-txt) !important;
+  font-weight: 600 !important;
+  margin-bottom: 15px;
 }
 
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
+.project-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.blog-link:hover {
-  cursor: pointer !important;
+.project-details ul li {
+  margin-bottom: 10px;
+  font-size: 1em !important;
 }
 
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px #0bebef !important;
+.project-details ul li strong {
+  font-weight: 600 !important;
+  color: var(--clr-primary) !important;
+}
+
+.project-details ul li ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.project-details ul li ul li {
+  font-size: 0.95em !important;
+  margin-bottom: 8px;
+}
+
+.project-details .project-subheading {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: var(--clr-txt) !important;
+  margin-bottom: 10px;
+}
+
+.project-details .project-subheading + ul {
+  margin-top: 10px;
+}
+
+.project-details .project-subheading, 
+.project-details ul li {
+  text-align: left !important;
 }
 
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
-}
-
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
 }
 
 .btn-primary {
@@ -79,10 +100,12 @@
   color: var(--clr-bg) !important;
   background-color: var(--clr-primary) !important;
 }
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
 .project-heading {
   color: var(--clr-txt) !important;
   font-size: 2.3em !important;

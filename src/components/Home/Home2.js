@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Avatar.png";
+import myImg from "../../Assets/yol.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -22,9 +22,9 @@ function Home2() {
             <p className="home-about-body" data-aos="fade-up">
               <br />
               I'm a <i className="primary-header">
-                Self-Taught Web Developer
+                Full Stack Developer
               </i>{" "}
-              who loves solving problems and building Websites.
+              who loves solving problems and building Web and Mobile Applications.
               <br />
               <br />I am passionate about{" "}
               <i className="primary-header">technologies</i> and love to learn
@@ -36,9 +36,13 @@ function Home2() {
               </i>
               <br />
               <br />I always apply my experience in developing products with{" "}
-              <i className="primary-header">Node.js</i> and Modern Javascript
-              Library and Framework like
-              <i className="primary-header"> React.js.</i>
+                <i className="primary-header">React Native.js</i> and modern JavaScript 
+                libraries and frameworks like <i className="primary-header">React.js</i>. 
+                I also have expertise in backend technologies such as{" "}
+                <i className="primary-header">Node.js</i> and{" "}
+                <i className="primary-header">MongoDB</i>, along with cloud-based 
+                services like <i className="primary-header">Firebase</i>.
+
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}
@@ -66,7 +70,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://github.com/Yolanda-landii"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/kumardotexe"
+                  href="https://x.com/YolandaLandii"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -88,7 +92,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:rahul.workmail01@gmail.com"
+                  href="mailto:landiimabotja2000@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +103,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/yolanda-mabotja-8ab563232/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -110,7 +114,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/dead.programmer/"
+                  href="https://www.instagram.com/king.landii_rsa/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

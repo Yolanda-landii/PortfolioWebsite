@@ -129,7 +129,17 @@
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+  border-radius: 50px;
 }
+.myAvtar img {
+  width: 500px; 
+  height: 500px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  display: block;
+  margin: auto;
+}
+
 
 @media (max-width: 767px) {
   .myAvtar {
@@ -220,4 +230,24 @@
 
 .icon-colour {
   color: var(--clr-primary) !important;
+}
+.resume-btn-container {
+  margin-top: 20px;
+}
+
+.resume-btn {
+  background-color: var(--clr-primary);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.resume-btn:hover {
+  background-color: var(--clr-txt);
+  color: var(--clr-primary);
+  box-shadow: 0 0 10px var(--clr-primary);
 }

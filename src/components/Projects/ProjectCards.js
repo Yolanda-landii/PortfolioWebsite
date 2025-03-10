@@ -20,8 +20,7 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
+        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component */}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -33,9 +32,12 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+
+        {/* Render the children if any are passed to the component */}
+        {props.children && <div>{props.children}</div>}
       </Card.Body>
     </Card>
-    
   );
 }
+
 export default ProjectCards;
