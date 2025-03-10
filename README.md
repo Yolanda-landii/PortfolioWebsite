@@ -3,7 +3,7 @@
   <a href="https://portfoliowebsite-pxze.onrender.com" target="_blank">Yolanda Mabotja</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/Portfolio_img.pngw" />
+  <img alt="Demo" src="./Images/Portfolio_img.png" />
 </div>
 
 <br/>
