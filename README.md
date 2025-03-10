@@ -3,17 +3,11 @@
   <a href="https://portfoliowebsite-pxze.onrender.com" target="_blank">Yolanda Mabotja</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/Portfolio_img.png" />
+  <img alt="Demo" src="/Images/portfolio.png" />
 </div>
 
 <br/>
 
-<div align="center">
-
-![GitHub Repo stars](https://img.shields.io/github/stars/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge)
-
-</div>
 
 You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Yolanda-landii](https://portfoliowebsite-pxze.onrender.com). Thanks in Advance😍!
 
