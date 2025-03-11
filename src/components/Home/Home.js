@@ -31,7 +31,7 @@ function Home() {
               </div>
 
               {/* View Resume Button */}
-              {/* <Button
+              <Button
                 variant="primary"
                 href={resumePDF}
                 target="_blank"
@@ -40,7 +40,7 @@ function Home() {
                 className="resume-btn"
               >
                 📄 View Resume
-              </Button> */}
+              </Button>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
