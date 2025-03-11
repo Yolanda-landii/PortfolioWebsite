@@ -1,6 +1,6 @@
 <h2 align="center">
   Yolanda Mabotja | Portfolio Website<br/>
-  <a href="https://portfoliowebsite-pxze.onrender.com" target="_blank">Yolanda Mabotja</a>
+  <a href="https://portfolio-website-flax-xi-36.vercel.app/" target="_blank">Yolanda Mabotja</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="/Images/portfolio.png" />
@@ -9,11 +9,11 @@
 <br/>
 
 
-You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Yolanda-landii](https://portfoliowebsite-pxze.onrender.com). Thanks in Advance😍!
+You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Yolanda-landii](https://portfolio-website-flax-xi-36.vercel.app/). Thanks in Advance😍!
 
 ## Built With
 
-My personal portfolio website <a href="https://portfoliowebsite-pxze.onrender.com" target="_blank">Yolanda Mabotja</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio website <a href="https://portfolio-website-flax-xi-36.vercel.app/" target="_blank">Yolanda Mabotja</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project is built using these technologies.
 
