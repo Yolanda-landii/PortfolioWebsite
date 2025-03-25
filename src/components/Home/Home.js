@@ -5,9 +5,11 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./home.css";
-import resumePDF from "../../Assets/Yolanda Mabotja - 20250129.pdf"; 
+// import resumePDF from "../../Assets/Yolanda Mabotja - 20250129.pdf"; 
 
 function Home() {
+  const resumePDF = "/Yolanda_Mabotja_CV.pdf";
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -27,20 +29,23 @@ function Home() {
               </h1>
 
               <div style={{ padding: 30 }} className="type">
-                <Type />
-              </div>
+              <Type />
+              
+            </div>
+            <div className="resume-btn-container">
+            <Button
+              variant="primary"
+              href={resumePDF}
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Yolanda_Mabotja_CV.pdf"
+              className="resume-btn"
+            >
+              Download <span className="download-icon">⬇</span>
+            </Button>
+          </div>
 
-              {/* View Resume Button */}
-              <Button
-                variant="primary"
-                href={resumePDF}
-                target="_blank"
-                rel="noopener noreferrer"
-                download="Yolanda_Mabotja_CV.pdf"
-                className="resume-btn"
-              >
-                📄 View Resume
-              </Button>
+
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

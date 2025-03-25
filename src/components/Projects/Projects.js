@@ -26,7 +26,7 @@ function Projects() {
               imgPath={RecipeApp}
               title="Recipe Application"
               description="A React.js-based online recipe management app that allows users to store, organize, and share their favorite recipes. The app supports user authentication, CRUD operations for recipes, and search functionality based on name and category. Built with a JSON server for backend data storage, it ensures a seamless user experience with an intuitive UI and responsive design."
-              ghLink="https://github.com/your-repo-link"
+              ghLink="https://github.com/Yolanda-landii/ReactRecipeApp/tree/ReactRecipeApp"
               demoLink="https://your-demo-link"
             />
           </Col>
@@ -36,8 +36,8 @@ function Projects() {
               imgPath={Hotelbooking}
               title="Hotel Booking App"
               description="An interactive hotel booking application built with React and Firebase, featuring a client and admin interface. Users can register, browse accommodations with photos, maps, and amenities, book rooms with secure payments, and manage their profiles. Admins can manage listings, reservations, and pricing in real time. Implements Firebase Authentication, Firestore, and Redux for state management, ensuring a seamless and responsive user experience."
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.info/"
+              ghLink="https://github.com/Yolanda-landii/HotelBooking_App"
+              demoLink="https://hotel-booking-app-pink-six.vercel.app/"
             />
           </Col>
 
@@ -46,7 +46,7 @@ function Projects() {
               imgPath={ShoppingList}
               title="Shopping List App"
               description="A React.js-based shopping list application that allows users to create, manage, and track multiple shopping lists. The app features authentication, CRUD operations for shopping lists, search and sorting functionality, and Redux for state management. Built with a JSON server for data persistence, ensuring a smooth and responsive user experience."
-              ghLink="https://github.com/your-repo-link"
+              ghLink="https://github.com/Yolanda-landii/Shopping-App/tree/shopping"
               demoLink="https://your-demo-link"
             />
           </Col>
