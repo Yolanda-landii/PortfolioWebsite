@@ -95,11 +95,11 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://blog.rahuljha.info/"
+                // href="https://blog.rahuljha.info/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Blogs
+                Skills Matrix
               </Nav.Link>
             </Nav.Item>
           </Nav>

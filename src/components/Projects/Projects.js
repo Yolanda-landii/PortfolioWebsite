@@ -44,22 +44,14 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={ShoppingList}
-              title="Shopping List App"
+              title="ShoppingList Application"
               description="A React.js-based shopping list application that allows users to create, manage, and track multiple shopping lists. The app features authentication, CRUD operations for shopping lists, search and sorting functionality, and Redux for state management. Built with a JSON server for data persistence, ensuring a smooth and responsive user experience."
-              ghLink="https://github.com/Yolanda-landii/Shopping-App/tree/shopping"
-              demoLink="https://your-demo-link"
+              ghLink="https://github.com/Yolanda-landii/Shopping-App"
+              demoLink="https://shopping-app-lilac-nine.vercel.app/"
             />
           </Col>
 
-          {/* <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={EmployeeApp}
-              title="Employee Management App"
-              description="A React.js-based admin portal that allows organizations to manage employee records efficiently. Features include CRUD operations for employee data, search and filtering options, and local storage for data persistence. The app provides a user-friendly, responsive interface with intuitive navigation and an aesthetically pleasing design."
-              ghLink="https://github.com/your-repo-link"
-              demoLink="https://your-demo-link"
-            />
-          </Col> */}
+          
         </Row>
 
         {/* Group Projects Section */}
